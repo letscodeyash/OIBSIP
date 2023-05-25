@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Internship</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<style>
+    body {
+        margin: 0px;
+        padding: 0px;
+        background: url('bulb.jpg');
+        background-repeat: no-repeat;
+        background-size: auto;
+    }
+
+    .mid {
+        display: block;
+        width: 100%;
+        height: 50%;
+        margin: 5px auto;
+        background-color: rgb(15, 14, 14);
+        text-align: center;
+        border: 2px solid black;
+        border-radius: 20px;
+
+    }
+
+    .navbar {
+        /* background-color: blanchedalmond; */
+        display: inline-block;
+        padding-right: 70px;
+        padding-left: 60px;
+        position: sticky;
+    }
+
+    .navbar li {
+        display: inline-block;
+        text-decoration: none;
+        font-size: 20px;
+    }
+
+    .navbar li a {
+        text-decoration: none;
+        color: aquamarine;
+        font-family: cursive;
+        padding: 10px 20px;
+    }
+
+    .navbar li a:hover {
+        /* background-color: rgb(39, 28, 28); */
+        text-decoration:unset;
+        color: rgb(213, 32, 183);
+
+    }
+
+    h2 {
+        text-align: center;
+        color: blanchedalmond;
+        font-size: 30px;
+        margin: 5px;
+    }
+
+    h2:hover{
+        color: peru;
+    }
+
+    .container {
+        text-align: center;
+        border: 3px solid white;
+        border-radius: 30px;
+        margin: 70px 80px;
+        padding: 55px;
+        width: 30%;
+    }
+
+    .form input {
+        font-family: 'Ububtu',Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+        text-align: center;
+        display: block;
+        width: 300px;
+        padding: 3px;
+        border: 2px solid rgb(205, 171, 68);
+        margin: 4px ;
+        border-radius: 7px;
+    }
+    
+    .footer{
+        text-align: center;
+        color: bisque;
+        text size: 20px;
+    }
+</style>
+
+<body>
+    <header class="header">
+        <div class="mid">
+            <h2> Yash Technologies</h2>
+            <ul class="navbar">
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Bookings</a></li>
+                <li><a href="#">About US</a></li>
+                <li><a href="#">Contact US</a></li>
+            </ul>
+        </div>
+        </div>
+    </header>
+
+    <div class="container">
+        <h2>Apply for intership</h2>
+        <form action="yash.php">
+            <div class="form">
+                <input type="text" name="" placeholder="Enter your name ">
+            </div>
+            <div class="form">
+                <input type="date" name="" placeholder="Enter DOB">
+            </div>
+            <div class="form">
+                <input type="email" name="" placeholder="Enter Your Email">
+            </div>
+            <div class="form">
+                <input type="text" name="" placeholder="Enter Institute Name">
+            </div>
+            <div class="form">
+                <input type="text" name="" placeholder="Enter Qualification">
+            </div>
+            <div class="form">
+                <input type="file" name="no " placeholder="Resume.pdf">
+            </div>
+            <button class="btn">Submit</button>
+        </form>
+    </div>
+
+    <footer>
+        <div class="footer">
+            <p>We are Here for You. -Yash Technologies</p>
+        </div>
+    </footer>
+</body>
+
+</html>
